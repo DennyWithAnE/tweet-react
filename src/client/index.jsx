@@ -1,20 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import tweets from 'tweets'
+import tweets from "tweets";
 
 class App extends React.Component {
   render() {
-    return (
-      <div>
-        tweets
-      </div>
-    );
+    return <div>tweets</div>;
   }
 }
 
-const element = document.getElementById('app');
+const element = document.getElementById("app");
 
-ReactDOM.render(<App />, element );//
+ReactDOM.render(<App />, element); //
 
 console.log("tweet react");
